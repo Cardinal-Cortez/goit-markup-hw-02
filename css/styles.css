@@ -3,13 +3,13 @@
     --color-gray:#757575;
     --color-black:#000000;
     --color-blue:#2196F3;
-    --color-white:#ffff;
     --color-backgroung:#2F303A;
 }
 
 body
 {
     font-family: 'Roboto', sans-serif;
+    color: #ffff;
 }
 
 
@@ -89,7 +89,6 @@ body
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color:var(--color-white)
 }
 .hero-btn 
 {
@@ -113,12 +112,6 @@ body
 
 
 /* --------------FEATURES------------- */
-
-
-.title
-{
-   color: var(--color-white);
-}
 
 .feature-title 
 {
@@ -195,33 +188,28 @@ body
 }
 .footer-studio
 {
-    color: var(--color-white);
+    color: #ffff
 }
 .footer-address
 {
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
-    color: var(--color-white)
+    color: #FFFFFF;
+
 }
 .footer-contacts
 {
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
 }
 
 
 /* ----------Portfolio------------ */
 
 
-.portfolio 
-{
-    color: var(--color-white);
-}
 .portfolio-btn 
 {
     font-family: inherit;
