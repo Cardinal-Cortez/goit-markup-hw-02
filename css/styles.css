@@ -4,6 +4,7 @@
     --color-black:#000000;
     --color-blue:#2196F3;
     --color-backgroung:#2F303A;
+    --color-c6:#188CE8;
 }
 
 body
@@ -110,7 +111,7 @@ body
 .hero-btn:hover,
 .hero-btn:focus
 {
-    background: #188CE8;
+    background:var(--color-c6)
 }
 
 
@@ -234,18 +235,21 @@ body
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
     cursor: pointer;
     border: none;
+    color: var(--color-black)
+  
 }
+
 .portfolio-btn:hover,
 .portfolio-btn:focus
 {
     background: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    color: var(--color-white);
 }
 
 .portfolio-title 
